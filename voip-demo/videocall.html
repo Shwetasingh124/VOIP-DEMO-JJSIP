@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Video Call</title>
+    <script src="./jssip-3.10.0.js"></script>
+    <script src="videocall.js"></script>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <video id="remoteVideo" style="border: 1px solid black;"></video>
+    </div>
+
+    <div style="text-align: center;">
+        <input type="text" id="vcall" placeholder="Enter number to call" style="margin-right: 5px;" />
+        <button onclick="videoCall()">Call</button>
+    </div>
+</body>
+
+</html>
